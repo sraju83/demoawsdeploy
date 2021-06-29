@@ -1,0 +1,69 @@
+HOOKS >>>>
+Hooks are function that let you "hook into" React state and lifecycle features from fuction componennts.
+Hooks allow you to use React without classes. Is means you can use state and other react reacture without writing a classes
+Reach have built in feacuture like useState and useEffect etc.
+Hooks was added in 2018 in React 16.8, currnet system - react@16.13.1
+
+WHEN TO USE>>>
+If you write function component and relaised you need to add some state to it, since previously this was done with
+the help of converting funcation to component to get state, now with hook we can do it easily.
+
+
+RULES of HOOKS>>>
+1. Hooks should called at top level not inside the nested loop, conditions, any loop.
+2. Only call hooks from react funcatinon - we should not call hooks from regular JavaScript functions. only call from React funcation componennts
+or from custom hooks
+3. Reacts relaies on the order in which Hooks are called.
+4. Hooks doesn't work inside classes.
+
+two funcation 
+1. useState - this help in setting state value
+2. useEffect - this help instes of calling componetDidMount, ComponetDidUpdate and componentWillUnmount combiled
+
+useEffect - how to use it 
+    const [count, setCount] = useState("100");
+    var count = setCount("400");
+this have 2 funatino 
+    useEffect(fuction)
+    useEffect(Funcation, Array) array aregumetn help to decide if we need to show or not
+Note : this will be called many times, since life cycle
+
+What does useEffect do>
+    this can be used after the render like data fetching, calling API or setting document title.
+
+does it runs after rende> yes after render as well as after every update.
+
+
+CUSTOM HOOK call
+A custom hook is a JavaScript fucnation, when we want to share logic between two javascript funation, we extract it to 
+a third funation
+
+build you own hool and extract your component logic into resuable fucnation
+
+USE:>>>>
+Form, handling, animation, declarative subscription, timers and many more
+
+Creating Custome Hooks
+this is java script funation whose name starts with "use" and that may call other Hooks.
+
+const data = useSomething();
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>
+https://enjoycss.com/gallery/templates#text
+https://html-css-js.com/css/generator/text-shadow
+https://www.w3schools.com/tags/tag_label.asp
+https://codepen.io/deveshsrivastava/pen/NWGbBYZ
+https://reactstrap.github.io/components/layout/
+https://api.randomuser.me/

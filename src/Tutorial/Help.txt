@@ -1,0 +1,181 @@
+https://www.youtube.com/watch?v=QpfyjwhY9kg&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=15
+https://www.youtube.com/watch?v=wv_3WbnQQ0s&list=PLbGui_ZYuhignjLLXTJWkRJKN-SgAqClL&index=19
+https://codepen.io/pen?&editable=true&editors=0010 - this help to work on testing
+https://www.youtube.com/watch?v=Szc0xGXeSzk&list=PL8p2I9GklV44oDSE3j-E-OkvxFkz5a1d8&index=9
+
+
+Comment Code Block Ctrl+ /
+
+ Chapter 1 : prop-types
+Help to chech property like string/int in property
+https://www.npmjs.com/products/teams?utm_source=adwords&utm_medium=ppc&utm_campaign=npmTeams2019Q2&utm_content=site&gclid=Cj0KCQjwyur0BRDcARIsAEt86ICjUVc1tgonAsgTggz1AqTG2glWzoilvu7xJph6bJ5pDTNjWmhsU5YaAg92EALw_wcB
+
+Type - prop typ: How to use it and istall it 
+npm install --save prop-types
+npm install react-bootstrap bootstrap
+    import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import PropTypes from 'prop-types'; // ES6
+From <https://www.npmjs.com/package/prop-types> 
+note : used for development. not to be used for production
+
+return React.createElement('div', null, 'hello verms');
+
+ install snippits and shortcut by ES7 React/redux/GraphQL/node.js
+
+
+ Chapter 2: Conditional rendering If/else
+ 1. if/else
+ 2. Elemenet variable
+ 3. Ternary Conditional operator
+ 4. Short circut operator
+
+Chapter 3: Array
+ const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2); //1st x is property and next x*2 is the funcation
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+link : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+Chapter 4: Stylling and CSS
+1. CSS Stylings
+2. Inline Stylings
+3. CSS modules
+4. CSS in JS Library. (styled component)
+
+
+
+************************
+ReactDOM.render(
+    <Router history={history}>
+        <App>
+            <Switch>
+                <Route exact path="/" component= {Home} />
+                <Route path="/about" component= {About} />
+                <Route path="/contact" component= {Contact} />
+                <Route path="/404" component= {NotFound} />
+                <Redirect to= "/404" />
+            </Switch>
+        </App>
+    </Router>,
+    document.getElementById('root')
+);
+**************************
+
+Connect to REact to API#
+
+1. Install react and crate new react application - : npm install -g create-react-App
+2. create-react-api reactapi
+3. change directory and start : npm start
+4. localhost:3000
+
+
+API ***************
+https://github.com/benawad/practical-react/tree/12_fetch_data_from_api
+
+
+///React with node Expresss
+https://NPX_vs_NPM_commands
+Featured snippet from the web
+npx is mostly used to run scripts located in ./node_modules/. bin , 
+whereas npm is for installing packages themselves. 
+If you're on linux or a mac, type man npx
+
+
+
+how to create server side NPM NODE JS
+
+C:\Sites\ReactJSGermany\myfirstreact>npm -v
+6.14.4
+
+C:\Sites\ReactJSGermany\myfirstreact>node -v
+v12.16.1
+
+C:\Sites\ReactJSGermany\myfirstreact>npm install -g express-generator
+Go to the path and open the terminal in new vs code and run 
+NPM Install - this will install all the dependence in the json package template
+
+//setStates: https://www.freecodecamp.org/news/get-pro-with-react-setstate-in-10-minutes-d38251d1c781/
+
+Context
+
+
+API to get and post request
+$ npm install axios
+fake REST API
+https://jsonplaceholder.typicode.com/
+https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/
+https://github.com/axios/axios
+https://github.com/gopinav/React-Tutorials/tree/master/React%20Fundamentals
+
+Router :
+
+$ npm install react-router-dom
+
+https://www.youtube.com/watch?v=Law7wfdg_ls&t=1692s
+
+redux - this is statecontainer - to do - pening - completion  
+1. State. - problem can be solved Context + hook
+2. Can track the statecontainer.
+3. Help in managing the state.
+
+prerequest 
+1. react  2. redux 3. react-redux
+
+Ezmaple 
+
+tree 
+
+a,b,c,d,e,f,g,f,-,-,
+
+    LoginForm
+    State ={
+        username:'' , password:'', submitting: false
+    }
+
+    UserList
+    State ={
+        users:[]
+    }
+
+    Application
+    State ={
+        isUserLoggedin: true,
+        username:'Viswas',
+        profileUrl:'',
+        onlineUsers:[],
+        isModalOpened:false
+    }
+
+
+__________________________________________
+
+// // Wrong
+// this.state.comment = 'Hello';
+
+// // Correct
+// this.setState({comment: 'Hello'});
+
+// // Wrong
+// this.setState({
+//     counter: this.state.counter + this.props.increment,
+//   });
+
+//   // Correct
+// this.setState((state, props) => ({
+//     counter: state.counter + props.increment
+//   }));
+
+//   // Correct
+// this.setState(function(state, props) {
+//     return {
+//       counter: state.counter + props.increment
+//     };
+//   });
+
+
+

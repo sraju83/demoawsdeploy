@@ -1,0 +1,4 @@
+
+1. Line 3:26:  'Component' is not defined  no-undef
+
+Solutino : import React, { Component } from "react"; //rce
